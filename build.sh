@@ -31,3 +31,4 @@ rm /etc/sddm.conf.d/virtualkbd.conf
 # Disable the steam session management service
 systemctl disable bazzite-autologin.service
 
+dnf install kpatience
