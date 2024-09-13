@@ -21,3 +21,13 @@ rpm-ostree install screen
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+# Remove the autologin to gamescope-session
+rm /etc/sddm.conf.d/steamos.conf
+
+# Remove virtual keyboard on SDDM
+# as this image is for workstations and permanently docked steamdecks
+rm /etc/sddm.conf.d/virtualkbd.conf
+
+# Disable the steam session management service
+systemctl disable bazzite-autologin.service
+
