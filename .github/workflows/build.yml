@@ -1,5 +1,5 @@
 ---
-name: build-ublue-custom
+name: DJWYMAN-bazzite-build
 on:
   pull_request:
     branches:
