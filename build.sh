@@ -14,7 +14,7 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
-
+rpm-ostree install kpatience
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
@@ -31,4 +31,4 @@ rm /etc/sddm.conf.d/virtualkbd.conf
 # Disable the steam session management service
 systemctl disable bazzite-autologin.service
 
-dnf install kpatience
+
