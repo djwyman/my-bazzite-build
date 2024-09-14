@@ -16,7 +16,7 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install screen
 rpm-ostree install kpat
 rpm-ostree uninstall joystickwake
-rpm-ostree install openrazer
+ujust install-openrazer
 rpm-ostree install openrgb
 
 # this would install a package from rpmfusion
