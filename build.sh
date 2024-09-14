@@ -15,6 +15,7 @@ RELEASE="$(rpm -E %fedora)"
 # this installs a package from fedora repos
 rpm-ostree install screen
 rpm-ostree install kpat
+rpm-ostree uninstall joystickwake
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
