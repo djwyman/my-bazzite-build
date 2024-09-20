@@ -18,6 +18,7 @@ rpm-ostree install kpat
 rpm-ostree uninstall joystickwake
 rpm-ostree install openrgb
 rpm-ostree install rclone
+rpm-ostree install megasync
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
