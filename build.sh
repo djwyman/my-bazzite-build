@@ -19,7 +19,7 @@ rpm-ostree uninstall joystickwake
 rpm-ostree install openrgb
 rpm-ostree install rclone
 rpm-ostree install kitty
-
+rpm-ostree install gnome-disk-utility
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
