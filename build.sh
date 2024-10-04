@@ -20,6 +20,7 @@ rpm-ostree install openrgb
 rpm-ostree install rclone
 rpm-ostree install kitty
 rpm-ostree install gnome-disk-utility
+rpm-ostree install syncthing
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
