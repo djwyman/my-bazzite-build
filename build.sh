@@ -21,6 +21,7 @@ rpm-ostree install rclone
 rpm-ostree install kitty
 rpm-ostree install gnome-disk-utility
 rpm-ostree install syncthing
+rpm-ostree install brave-browser
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
